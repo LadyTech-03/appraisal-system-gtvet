@@ -117,6 +117,18 @@ const MOCK_USERS: User[] = [
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString(),
   },
+  {
+    id: "11",
+    name: "Larry Paige",
+    staffId: "SF001",
+    email: "x`",
+    role: "Staff Member",
+    managerId: "2",
+    division: "Management Services",
+    passwordHash: "password123",
+    createdAt: new Date().toISOString(),
+    updatedAt: new Date().toISOString(),
+  },
 ]
 
 const MOCK_APPRAISALS: Appraisal[] = [
